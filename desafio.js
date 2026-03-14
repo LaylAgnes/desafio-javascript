@@ -36,6 +36,6 @@ for (let i = 0; i < jogadores.length; i++) {
     const jogador = jogadores[i];
     const resultado = calcularPartidasRankeadas(jogador.vitorias, jogador.derrotas);
     console.log(
-        `O Herói tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`
+        `O ${jogador.nome} tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`
     );
 }
